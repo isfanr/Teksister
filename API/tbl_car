@@ -1,0 +1,7 @@
+CREATE TABLE `tbl_car` (
+  `car_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `car_destination` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `car_schedule` varchar(45) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `car_position` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  PRIMARY KEY (`car_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
